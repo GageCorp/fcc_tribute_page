@@ -10,8 +10,14 @@
     border: solid 2px;
 }
 #name {
-    display: flex;
-}
-#date {
+    padding-top: 1em;
     
+}
+#img-div {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    margin: 2em;
+    background-color: rgba(150, 106, 192, 0.3) ;
+    justify-items: center;
 }
