@@ -1,23 +1,34 @@
 :root {
     background-color: beige;
 }
-#title {
+#main {
     display: grid;
-    grid-template-rows: 2fr 1fr;
-    margin: 2em;
-    justify-content: center;
-    background-color: rgba(150, 106, 192, 0.3);
-    border: solid 2px;
-}
-#name {
-    padding-top: 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-auto-rows: minmax(100px, auto-fit);
+    margin-top: 50px;
+   
     
 }
-#img-div {
-    display: grid;
-    height: 500px;
-    width: 500px;
+.container {
+    background-color: rgba(141, 74, 161, 0.25);
+    display: flex;
     margin: 2em;
-    background-color: rgba(150, 106, 192, 0.3) ;
-    justify-items: center;
+    
+    justify-content: center;
+}
+#title {
+   grid-column: 1 /4;
+   grid-row: 1;
+   text-align: center;
+}
+#img-div {
+    grid-column: 1 / 4;
+    grid-row: 2 / 6;
+}
+#content {
+    grid-column: 1 /4;
+    grid-row: 6;
+    height: 200px;
+    
 }
