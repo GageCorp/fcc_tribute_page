@@ -13,8 +13,14 @@
 .container {
     background-color: rgba(141, 74, 161, 0.25);
     display: flex;
-    margin: 2em;
-    
+    margin: auto;
+    width: 75%;
+    border-radius: 2%;
+    border: black;
+    border-style: groove;
+    border-width: 2px;
+    padding: 20px;
+    box-sizing: border-box;
     justify-content: center;
 }
 #title {
@@ -25,10 +31,14 @@
 #img-div {
     grid-column: 1 / 4;
     grid-row: 2 / 6;
+    width: 90%;
+    background-color: rgba(141, 74, 161, 0);
+    border-width: 0;
+
 }
 #content {
     grid-column: 1 /4;
     grid-row: 6;
-    height: 200px;
+    height: auto;
     
 }
