@@ -20,7 +20,6 @@
     border-style: groove;
     border-width: 2px;
     padding: 20px;
-    box-sizing: border-box;
     justify-content: center;
 }
 #title {
@@ -30,8 +29,9 @@
 }
 #img-div {
     grid-column: 1 / 4;
-    grid-row: 2 / 6;
-    width: 90%;
+    grid-row: 2 / 4;
+    width: 75%;
+    height: auto;
     background-color: rgba(141, 74, 161, 0);
     border-width: 0;
 
