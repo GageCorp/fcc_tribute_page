@@ -19,7 +19,7 @@
     border: black;
     border-style: groove;
     border-width: 2px;
-    padding: 20px;
+    padding: 10px;
     justify-content: center;
 }
 #title {
@@ -29,13 +29,16 @@
 }
 #img-div {
     grid-column: 1 / 4;
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
     width: 75%;
+    max-width: 750px;
     height: auto;
     background-color: rgba(141, 74, 161, 0);
     border-width: 0;
+    
 
 }
+
 #content {
     grid-column: 1 /4;
     grid-row: 6;
