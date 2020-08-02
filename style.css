@@ -27,21 +27,27 @@
    grid-column: 1 /4;
    grid-row: 1;
    text-align: center;
+   font-family: Impact, Charcoal, sans-serif;
 }
 #img-div {
     grid-column: 1 / 4;
     background-color: rgba(141, 74, 161, 0);
     border-width: 0;
 }
+
 img {
     width: 100%;
     height: 400px;
 }
+figcaption {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
 
-
-#content {
+#tribute-info {
     grid-column: 1 /4;
     grid-row: 3;
     height: auto;
+    font-family: Tahoma, Geneva, sans-serif;
     
 }
